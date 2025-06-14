@@ -340,21 +340,36 @@
 
 // fetch using await
 
-const API_URL = "htt://api.github.com/users/vivek2005";
+// const API_URL = "htt://api.github.com/users/vivek2005";
 
-async function fetchCallGitHub() {
-  // try {
-  const data = await fetch(API_URL);
-  const jsonValue = await data.json();
-  console.log(jsonValue);
-  // } catch (err) {
-  //   console.log("first catch");
-  //   console.log(err);
-  // }
-}
+// async function fetchCallGitHub() {
+//   // try {
+//   const data = await fetch(API_URL);
+//   const jsonValue = await data.json();
+//   console.log(jsonValue);
+//   // } catch (err) {
+//   //   console.log("first catch");
+//   //   console.log(err);
+//   // }
+// }
 
-// fetchCallGitHub();
-fetchCallGitHub().catch((err) => {
-  console.log("second catch");
-  console.log(err);
-});
+// // fetchCallGitHub();
+// fetchCallGitHub().catch((err) => {
+//   console.log("second catch");
+//   console.log(err);
+// });
+
+// const student = {
+//   name: "Vivek",
+//   printName: function () {
+//     console.log(this.name);
+//   },
+// };
+
+// student.printName();
+
+// const student2 = {
+//   name: "Vishal",
+// };
+
+// student.printName.call(student2);
